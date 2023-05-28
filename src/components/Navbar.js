@@ -16,6 +16,9 @@ const Navbar = () => {
                 <Link to = "/about">About</Link>
             </li>
             <li>
+                <Link to = "/education">Education</Link>
+            </li>
+            <li>
                 <Link to = "/skills">Skills</Link>
             </li>
             <li>

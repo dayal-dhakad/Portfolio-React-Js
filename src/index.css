@@ -33,9 +33,10 @@ ul {
     border: 1px solid #fff;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 3px;
   }
 
-  btn-light{
+  .btn-light{
     /* background: rgba(255, 255, 255,0.2); */
     background: transparent;
     color: #fff;
