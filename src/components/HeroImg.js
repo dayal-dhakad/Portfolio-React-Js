@@ -11,12 +11,12 @@ const HeroImg = () => {
             <img className="intro-img" src={IntroImg} alt="IntroImg" />
         </div>
         <div className="content">
-            <p>Hello, My name is</p>
+            <p className="p1">Hello, My name is</p>
             <h1>Deendayal Dhakad</h1>
-            <p>And, I'm an Engineer</p>
+            <p className="p2">And, I'm an Engineer</p>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to="/resume" className="btn">Resume</Link>
+                <Link to="/resume" className="btn btn-light">Resume</Link>
             </div>
         </div>
     </div>
