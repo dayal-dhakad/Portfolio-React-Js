@@ -6,7 +6,7 @@ import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import Skills from "./routes/Skills";
 import Education from "./routes/Education"
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import {  Routes, Route } from "react-router-dom";
 
 function App() {
