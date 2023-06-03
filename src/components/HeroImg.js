@@ -2,7 +2,7 @@ import "./HeroImgStyles.css";
 import Typewriter from "typewriter-effect";
 import React from 'react'
 import IntroImg from "../assets/intro-bg.jpg";
-import Resumee from "../assets/Resumee.jpg"
+import Resumee from "../assets/resume.pdf"
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
@@ -33,7 +33,7 @@ const HeroImg = () => {
          
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to={Resumee} className="btn btn-light">Resume</Link>
+                <a href={Resumee} target="_blank" className="btn btn-light">Resume</a>
             </div>
         </div>
     </div>
