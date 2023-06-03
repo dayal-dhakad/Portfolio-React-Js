@@ -14,7 +14,23 @@ const HeroImg = () => {
         <div className="content">
             <p className="p1">Hello, I'm</p>
             <h1>Deendayal Dhakad</h1>
-            <p className="p2">Nd I'm a Software Developer</p>
+            <div className="p2">
+            <p className="p2"><Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                    
+                        .typeString("And I'm an Engineer")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("And I'm a Software Developer")
+                        .deleteAll()
+                        .typeString("And I'm an Engineer")
+                        .start();
+                }}
+            /></p>
+            </div>
+
+         
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to={Resumee} className="btn btn-light">Resume</Link>

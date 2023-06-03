@@ -1,6 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
+import { Link } from "react-router-dom"
 import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaLinkedin, FaGithub, FaTwitter} from "react-icons/fa"
 
 const Footer = () => {
@@ -23,10 +24,10 @@ const Footer = () => {
               <h4>  <FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>
                 dayaldhakad01@gmail.com </h4>
                 <div className="social">
-                <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}}/>
-                <FaGithub size={30} style={{color:"#fff", marginRight:"1rem"}}/>
-                <FaInstagram size={30} style={{color:"#fff", marginRight:"1rem"}}/>
-                <FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}}/>
+               <Link to="https://linkedin.com/in/dayal-dhakad" target="_blank"><FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}}/></Link> 
+              <Link to="https://github.com/dayal-dhakad" target="_blank">  <FaGithub size={30} style={{color:"#fff", marginRight:"1rem"}}/></Link>
+              <Link to="https://www.instagram.com/dayal_dhakad/" target="_blank"> <FaInstagram size={30} style={{color:"#fff", marginRight:"1rem"}}/></Link> 
+               <Link to="https://twitter.com/dayal_dhakad" target="_blank"><FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}}/></Link> 
                 </div>
             </div>
             
