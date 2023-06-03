@@ -1,0 +1,95 @@
+.academics{
+    color: white;
+    background-color: rgb(17, 17, 24);
+    width: 100%;
+    margin-bottom: 6rem;
+    
+ 
+}
+
+.academics_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 30px auto;
+    font-weight: 900;
+    
+}
+
+.academics_container{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    grid-gap: 0.1rem;
+    margin: 0 4rem 8rem 4rem;
+
+   
+}
+
+.academics_name{
+    
+    padding: 1rem 1rem;
+    font-size: 15px;
+}
+
+.box{
+    display: flex;
+    border-radius: 2rem;
+    border: 1px solid white;
+    margin: 1rem 1rem;
+    padding: 20px 10px;
+    background-color: #1d1828;
+}
+.box:hover{
+    background: transparent;
+    cursor: default;
+}
+
+.rectangle{
+    height: 150px;
+    width: 20px;
+    background-color: white;
+    margin-left: 6px;
+    margin-bottom: 2rem;
+}
+
+.academics_icon{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.academics_content p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1024px){
+    .academics_container{
+        grid-template-columns: 1fr;
+    }
+
+    .academics_container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .academics_content{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .academics_container{
+        gap: 1rem;
+    }
+
+    .academics_container > div{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+}

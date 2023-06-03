@@ -1,7 +1,9 @@
 .footer{
     width: 100%;
-    padding: 3rem 0;
-    background-color: rgba(19, 19, 19, 0.8);
+    padding: 1rem 0 0 0;
+    background-color: #635985;
+    border: 1px transparent;
+    border-radius: 2rem 2rem 0 0;
 }
 .footer-container{
     max-width: 1140px;

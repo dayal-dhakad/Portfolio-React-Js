@@ -33,7 +33,7 @@ const HeroImg = () => {
          
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <a href={Resumee} target="_blank" className="btn btn-light">Resume</a>
+                <a href={Resumee} target="_blank" rel="noreferrer" className="btn btn-light">Resume</a>
             </div>
         </div>
     </div>

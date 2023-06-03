@@ -2,8 +2,8 @@ import './WorkCardStyles.css'
 import React from 'react'
 import WorkCard from './WorkCard'
 import WorkCardData from './WorkCardData'
-import pro1 from '../assets/project1.png'
-import { NavLink } from 'react-router-dom'
+
+
 const Work = () => {
   return (
     <div className="work-container">
