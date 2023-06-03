@@ -2,6 +2,7 @@ import "./HeroImgStyles.css";
 
 import React from 'react'
 import IntroImg from "../assets/intro-bg.jpg";
+import Resumee from "../assets/Resumee.jpg"
 import { Link } from "react-router-dom";
 
 const HeroImg = () => {
@@ -11,12 +12,12 @@ const HeroImg = () => {
             <img className="intro-img" src={IntroImg} alt="IntroImg" />
         </div>
         <div className="content">
-            <p className="p1">Hello, My name is</p>
+            <p className="p1">Hello, I'm</p>
             <h1>Deendayal Dhakad</h1>
-            <p className="p2">And, I'm an Engineer</p>
+            <p className="p2">Software Developer</p>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to="/resume" className="btn btn-light">Resume</Link>
+                <Link to={Resumee} className="btn btn-light">Resume</Link>
             </div>
         </div>
     </div>

@@ -6,15 +6,15 @@ const Form = () => {
   return (
     <div className="form">
         <form>
-            <label htmlFor="">Your Name</label>
-            <input type="text" />
-            <label htmlFor="">Email</label>
-            <input type="email" />
-            <label htmlFor="">Subject</label>
-            <input type="text" />
-            <label htmlFor="">Message</label>
-            <textarea name="" id="" rows="6" placeholder='Type your message here'></textarea>
-            <button className="btn">Submit</button>
+            <label htmlFor="name">Your Name</label>
+            <input type="text" name='name'/>
+            <label htmlFor="email">Email</label>
+            <input type="email" name='email'/>
+            <label htmlFor="subject">Subject</label>
+            <input type="text" name='subject' />
+            <label htmlFor="message">Message</label>
+            <textarea name="message" id="" rows="6" placeholder='Type your message here' ></textarea>
+            <button type='submit' className="btn">Submit</button>
 
         </form>
     </div>

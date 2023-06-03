@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
        <Navbar/>
-       <HeroImg2 title="PROJECTS" paragraph="Some of my recent works"/>
+       <HeroImg2 title="SKILLS" paragraph=""/>
        <Footer/>
     </div>
   )

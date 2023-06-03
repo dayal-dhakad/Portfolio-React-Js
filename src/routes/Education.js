@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <div>
      <Navbar/>
-     <HeroImg2 title="PROJECTS" paragraph="Some of my recent works"/>
+     <HeroImg2 title="EDUCATION" paragraph=""/>
       <Footer/>
     </div>
   )
