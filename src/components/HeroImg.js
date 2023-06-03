@@ -1,5 +1,5 @@
 import "./HeroImgStyles.css";
-
+import Typewriter from "typewriter-effect";
 import React from 'react'
 import IntroImg from "../assets/intro-bg.jpg";
 import Resumee from "../assets/Resumee.jpg"
@@ -14,7 +14,7 @@ const HeroImg = () => {
         <div className="content">
             <p className="p1">Hello, I'm</p>
             <h1>Deendayal Dhakad</h1>
-            <p className="p2">Software Developer</p>
+            <p className="p2">Nd I'm a Software Developer</p>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to={Resumee} className="btn btn-light">Resume</Link>
