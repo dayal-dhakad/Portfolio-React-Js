@@ -1,11 +1,29 @@
 import './FormStyles.css'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 import React from 'react'
 
 const Form = () => {
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ewwiep5', 'template_84ou1na', form.current, 'Gk5QScCMSAiIKy3Cg')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
+
   return (
     <div className="form">
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
             <label htmlFor="name">Your Name</label>
             <input type="text" name='name'/>
             <label htmlFor="email">Email</label>
