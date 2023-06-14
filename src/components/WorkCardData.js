@@ -6,14 +6,14 @@ const ProjectCardData=[
     {
         imgsrc: pro1,
         title: "Supermarket Billing System",
-        text: "It is using to make bills in supermarkets",
+        text: "It is a powerful C++ project designed to streamline billing processes in supermarkets. With this efficient software solution, generating accurate and detailed bills has never been easier. This system offers a seamless interface that allows supermarket staff to quickly input purchased items, apply discounts, and calculate the final bill with precision.",
         view: "https://github.com/dayal-dhakad/C-Project-Supermarket-Billing-System-"
     },
 
     {
         imgsrc: pro2,
         title: "Flat Rental System",
-        text: "A Flat Rental System project using html css javascript",
+        text: "Introducing the Flat Rental System, an innovative and user-friendly solution for managing rental properties. This project serves as my minor project and aims to simplify the process of finding and renting flats. Built with efficiency and convenience in mind, this system provides a comprehensive platform that connects landlords and tenants seamlessly.",
         view: "https://dayal-dhakad.github.io/Flat-Rental-System/"
     },
 
