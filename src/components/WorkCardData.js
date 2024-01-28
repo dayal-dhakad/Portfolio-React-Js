@@ -1,6 +1,7 @@
 import pro1 from '../assets/project1.png'
 import pro2 from '../assets/project2.png'
 import pro3 from '../assets/project3.png'
+import pro4 from '../assets/project4 (2).png'
 
 const ProjectCardData=[
     {
@@ -22,6 +23,13 @@ const ProjectCardData=[
         title: "NewsApp",
         text: "The goal is to create a News Feed app which gives a user regularly-updated news from the internet related to a particular topic. In this project, use API from newsapi.org . This is a well-maintained API which returns information in a JSON format.",
         view: "https://github.com/dayal-dhakad/ReactJs-Newsapp-"
+    },
+
+    {
+        imgsrc: pro4,
+        title: "E-Commerce Website",
+        text: "Developed the visual interface of an e-commerce platform, focusing on user experience and aesthetics. Implemented intuitive navigation and attractive design elements to facilitate seamless browsing and shopping for customers.",
+        view: "https://chimerical-kleicha-0752b0.netlify.app/"
     }
 ]
 
